@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- 問題１ -->
-    <title>Sample</title>
+    <title>佐藤健一の自己紹介</title>
 
     <style>
         body {
@@ -37,7 +37,9 @@
         div .aboutme ul {
             list-style: none;
         }
-
+img{
+    max-width: 900px;
+}
         .kigou {
             /* 問題１５ */
             
@@ -61,19 +63,26 @@
 <body>
     <!-- 問題８ -->
     <!-- ここにヘッダーを作成 -->
-
+<header>
+    <div class="header-logo">自己紹介</div>
+</header>
     <!-- 問題２ -->
     <div class="contents1">
        
         <!-- ここに見出し -->
-        
+        <h1>satoken</h1>
         <!-- ここに段落 -->
-
+<p>自己紹介ページです。</p>
         <hr>
 
         <div class="aboutme">
             <!-- 問題７ -->
             <!-- ここにリストを作成 -->
+            <ul>
+                <li>出身:千葉県船橋市</li>
+                <li>趣味:映画鑑賞</li>
+                <li>特技:剣道</li>
+            </ul>
         </div>
     </div>
 
@@ -81,10 +90,13 @@
 
     <div class="contents2">
     	<!-- 問題１０ -->
-        <h2>♪Favorite Music♪</h2>
+        <h2><span class="kigou">♪Favorite Music♪</span></h2>
         <div>
             <!-- 問題１１ -->
             <!-- Favoriteの内容を3つ作成しよう -->
+            <div>
+               <a href="https://www.youtube.com/watch?v=HIRiduzNLzQ">美波   ：  ホロネス</a> 
+            </div>
         </div>
     </div>
 
@@ -92,23 +104,30 @@
 
     <div class="contents3">
 		<!-- 問題１０ -->
-        <h2>☆This is my smoothie☆</h2>
+        <h2><span class="kigou">☆This is my smoothie☆</span></h2>
         <div>
             <!-- 問題３ -->
             <!-- ここにリンクを作成 -->
+            <a href="http://192.168.2.76/">metamorphose.jp</a>
             <!-- 問題４ ※上記リンクを別タブで開くように指定-->
+            <a href="http://monopocket.jp" target="_blank">monopocket.jp</a>
         </div>
 
         <div>
             <!-- 問題５ -->
             <!-- ここに画像を表示 -->
+            
             <!-- 問題６　上記画像をリンクにしてみよう -->
+            <a href="http://192.168.2.76/"target="_blank"><img src="img/表紙 (2).jpg" alt="スムージー"></a>
         </div>
     </div>
 
 
     <!-- 問題９ -->
     <!-- ここにフッターを作成 -->
+    <footer>
+        <div class="footer-logo"><small>Copyright @ 2019 k.sato All Rights Reserved.</small></div>
+    </footer>
 </body>
 
 </html>
